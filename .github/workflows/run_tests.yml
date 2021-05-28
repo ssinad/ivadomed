@@ -6,8 +6,6 @@ name: Run tests on all platforms
 on:
   # Trigger the workflow on push but only for the master branch
   push:
-    branches:
-      - master
   # Trigger the workflow on pull requests, but reveal no secrets, do not use pull_request_target, see:
   # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#pull_request_target
   pull_request:
